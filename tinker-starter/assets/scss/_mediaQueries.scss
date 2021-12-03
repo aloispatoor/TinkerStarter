@@ -1,0 +1,211 @@
+// MEDIA QUERY 1100PX
+@media screen and (max-width:1100px) {
+    h1{
+        font-size:1.5em;
+    }
+    h2{
+        font-size:1em;
+    }
+    h3{
+        font-size:0.8em;
+    }
+    h4{
+        font-size:0.8em;
+    }
+    p{
+        font-size:0.7em;
+    }
+    .blueButton, .headerButton, .blogButton, .galleryLinks {
+        font-size:0.6em;
+    }
+    .logo{
+        font-size:1em;
+    }
+
+    header{
+        #insideHeader{
+            article{
+                img{
+                    width:20%;
+                }
+            }
+        }
+        nav{
+            ul{
+                li{
+                    font-size:0.6em;
+                }
+            }
+        }
+    }
+    #blog{
+        article{
+            .blueFont{
+                font-size:0.65em;
+            }
+        }
+    }
+    .verticalNavBar, .galleryImg{
+        height:40rem;
+    }
+}
+
+// MEDIA QUERY 800PX
+@media screen and (max-width:800px) {
+    h1{
+        font-size:1.2em;
+    }
+    h2{
+        font-size:0.8em;
+    }
+    h3{
+        font-size:0.7em;
+    }
+    h4{
+        font-size:0.6em;
+    }
+    p{
+        font-size:0.6em;
+    }
+    .blueButton, .headerButton, .blogButton, .galleryLinks {
+        font-size:0.6em;
+    }
+    .blogButton{
+        width:70%;
+    }
+    .logo{
+        font-size:0.8em;
+    }
+
+    header{
+        #insideHeader{
+            article{
+                img{
+                    width:20%;
+                }
+            }
+        }
+        nav{
+            ul{
+                li{
+                    font-size:0.6em;
+                }
+            }
+        }
+    }
+    #blog{
+        article{
+            .blueFont{
+                font-size:0.55em;
+            }
+        }
+    }
+    .verticalNavBar, .galleryImg{
+        height:30rem;
+    }
+}
+
+// MEDIA QUERY 650PX
+@media screen and (max-width:650px) {
+    .blogButton{
+        width:70%;
+    }
+    .logo{
+        font-size:0.7em;
+    }
+
+    header{
+        #introduction{
+            line-height: 150%;
+        }
+        #insideHeader{
+            height:125vh;
+            padding: 10px 20%;
+            margin-bottom:10px;
+            @include flex($just:center, $dir:column);
+            article{
+                img{
+                    padding:2%;
+                    width:20px;
+                }
+                h3{
+                    padding : 10px 0;
+                    border-bottom : 1px solid white;
+                }
+                p{
+                    font-family:roboto_medium;
+                    padding: 10px 0;
+                }
+            }
+        }
+        nav{
+            @include flex($dir:column);
+            ul{
+                li{
+                    font-size:0.6em;
+                }
+            }
+        }
+    }
+    #blog{
+        article{
+            .blueFont{
+                font-size:0.55em;
+            }
+        }
+    }
+    .verticalNavBar, .galleryImg{
+        height:25rem;
+    }
+    .writingComment{
+        width:70%;
+    }
+    #blog{
+        @include flex ($dir:column);
+        .blogMenu{
+            height:25rem;
+            width:80%;
+            padding: 2% 10%;
+        }
+    }
+    #contact{
+        margin:5% 10%;
+    }
+    footer{
+        @include flex($dir: column);
+        height:30vh;
+        h4{
+            display:none;
+        }
+    }
+}
+
+// MEDIA QUERY 450PX
+@media screen and (max-width:450px){
+    .verticalNavBar, .galleryImg{
+        height:15rem;
+    }
+    .verticalNavBar{
+        width:50%;
+    }
+    #introduction{
+        padding:10%;
+    }
+    header{
+        nav{
+            ul{
+                @include flex($dir:column, $just:flex-end);
+                li{
+                    padding-top:5%;
+                    padding-left:0;
+                    padding-right:0;
+                }
+            }
+        }
+    }
+    header{
+        #insideHeader{
+            height:160vh;
+        }
+    }
+}

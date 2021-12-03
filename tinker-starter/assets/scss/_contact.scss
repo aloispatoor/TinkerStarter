@@ -1,0 +1,15 @@
+#contact{
+    @include flex($dir : column);
+    margin: 5% 20%;
+    text-align:center;
+    h2{
+        padding : 2% 0;
+        border-bottom : 1px solid white;
+    }
+    p{
+        padding-top:2%;
+    }
+    .blueButton{
+        margin-top: 5%;
+    }
+}

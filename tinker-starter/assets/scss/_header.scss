@@ -1,0 +1,69 @@
+// PART 1
+header{
+    background-image: url(../img/banner_bg.jpg);
+    background-size:cover;
+    background-position: top;
+    background-repeat:repeat-y;
+    background-attachment: fixed;
+    height:100%;
+    width:100%;
+}
+
+nav{
+    @include flex($just:space-between);
+    padding: 2% 10%;
+    box-sizing: border-box;
+    ul{
+        @include flex;
+        text-transform: uppercase;
+
+        li{
+            font-size: 0.8em;
+            padding: 0 10%;
+        }
+    }
+}
+
+#introduction{
+    line-height: 200%;
+    text-align:center;
+    padding: 10% 30%;
+
+    h1{
+        margin:2% 0;
+    }
+}
+
+// PART 2
+#insideHeader{
+    background-image: url(../img/about-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70vh;
+    padding: 0 5%;
+    margin-bottom:5%;
+    @include flex ($just:space-around);
+    gap:5%;
+    article{
+        text-align:center;
+        img{
+            background-color: $orange;
+            border: 3px solid white;
+            border-radius: 50%      ;
+            -webkit-border-radius: 50%      ;
+            -moz-border-radius: 50%      ;
+            -ms-border-radius: 50%      ;
+            -o-border-radius: 50%      ;
+            padding:8%;
+        }
+        h3{
+            padding : 10% 0;
+            border-bottom : 1px solid white;
+        }
+        p{
+            font-family:roboto_medium;
+            padding: 10% 0;
+            line-height: 150%;
+        }
+    }
+}

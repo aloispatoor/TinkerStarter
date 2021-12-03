@@ -1,0 +1,135 @@
+// GLOBAL
+*{
+    margin:0;
+    padding:0;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+body{
+    font-family:roboto;
+    color:white;
+    background-color: $darkGrey;
+}
+
+h2, a{
+    text-transform: uppercase;
+}
+
+h2{
+    font-family: roboto_bold;
+    display:inline;
+    padding-right:2%;
+}
+
+h3{
+    letter-spacing: 2px;
+}
+
+h4{
+    text-transform: uppercase;
+}
+
+i{
+    color:white;
+}
+
+// FONT SIZES
+.logo{
+    font-family:roboto_black;
+    font-size: 1.2em;
+    text-transform: uppercase;
+}
+
+.boldFont{
+    font-family: roboto_bold;
+}
+
+.italicFont{
+    font-family: roboto_italic;
+}
+
+// FONT COLORS
+.blueFont{
+    color:$blue;
+}
+
+.orangeFont{
+    color:$orange;
+}
+
+// BUTTONS
+.blueButton{
+    font-family:roboto_bold;
+    font-size:0.8em;
+    text-align:center;
+    background-color: $blue;
+    color:white;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    padding:10px;
+    transition: all 0.5s ease-in;
+    -webkit-transition: all 0.5s ease-in;
+    -moz-transition: all 0.5s ease-in;
+    -ms-transition: all 0.5s ease-in;
+    -o-transition: all 0.5s ease-in;
+}
+
+.headerButton{
+    font-family:roboto_bold;
+    font-size:0.8em;
+    text-align:center;
+    color:black;
+    background-color: white;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    padding:10px;
+    transition: all 0.5s ease-in;
+    -webkit-transition: all 0.5s ease-in;
+    -moz-transition: all 0.5s ease-in;
+    -ms-transition: all 0.5s ease-in;
+    -o-transition: all 0.5s ease-in;
+}
+
+.blogButton{
+    text-transform: capitalize;
+    font-size:1em;
+    font-family: roboto_bold;
+    text-align:center;
+    width:50%;
+    color:black;
+    background-color: white;
+    padding:15px;
+    transition: all 0.5s ease-in;
+    -webkit-transition: all 0.5s ease-in;
+    -moz-transition: all 0.5s ease-in;
+    -ms-transition: all 0.5s ease-in;
+    -o-transition: all 0.5s ease-in;
+}
+
+.galleryLinks{
+    text-transform: capitalize;
+    font-family: roboto_bold;
+    color: white;
+    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+}
+
+.navButton{
+    text-transform: uppercase;
+    color:white;
+    transition:all 0.3s ease-in-out;
+    -webkit-transition:all 0.3s ease-in-out;
+    -moz-transition:all 0.3s ease-in-out;
+    -ms-transition:all 0.3s ease-in-out;
+    -o-transition:all 0.3s ease-in-out;
+}

@@ -1,0 +1,24 @@
+#comments{
+    background-color: $orange;
+    text-align:center;
+    padding: 5%;
+    .boldFont{
+        padding-top: 2%;
+    }
+    p{
+        line-height: 150%;
+    }
+}
+
+.writingComment{
+    background-color: white;
+    color:$grey;
+    padding:2%;
+    width:50%;
+    margin: 0 auto;
+    border-radius:5px;
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    -ms-border-radius:5px;
+    -o-border-radius:5px;
+}

@@ -1,0 +1,39 @@
+#gallery{
+    background-color: white;
+    @include flex;
+}
+
+// VERTICAL NAV BAR
+.verticalNavBar{
+    background-color: $blue;
+    width: 30%;
+    height: 60rem;
+    padding: 5%;
+    h2{
+        padding : 5% 0;
+        border-bottom : 1px solid white;
+    }
+    p{
+        font-family:roboto_medium;
+        padding: 10% 0;
+        line-height: 150%;
+    }
+    ul{
+        padding-top: 5%;
+        li{
+            padding : 2% 0;
+        }
+    }
+}
+
+// IMAGES
+.galleryImg{
+    @include flex ($wrap:wrap);
+    background-color:white;
+    width:70%;
+    height: 60rem;
+    padding: 2% 5% 2% 0%;
+    img{
+        width:50%;
+    }
+}

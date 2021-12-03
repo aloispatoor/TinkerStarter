@@ -1,0 +1,37 @@
+footer{
+    position:relative;
+    @include flex($just : space-around);
+    padding: 2%;
+    line-height: 150%;
+    height:20vh;
+    box-sizing: border-box;
+}
+
+.location{
+    @include flex($just:flex-start);
+    h4{
+        position:absolute;
+        top:15px;
+    }
+    .address1{
+        border-right: 1px solid white;
+        padding-right:10px;
+    }
+    .address2{
+        padding-left:10px;
+    }
+}
+
+.moreInfo{
+    h4{
+        position:absolute;
+        top:15px;
+    }
+}
+
+.socialMedia{
+    h4{
+        position:absolute;
+        top:15px;
+    }
+}
